@@ -1,0 +1,318 @@
+{
+    "timeline":
+    {
+        "headline":"A short walk through history of Iraq",
+        "background": "blue",
+        "type":"default",
+        "text":"Information is taken from BBC: www.bbc.com/news/world-middle-east-14546763",
+        "asset": {
+            "media":"css/images/erbil.jpg",
+            "credit":"Erbil in the autonomous region of Kurdistan, North Iraq in 2014",
+            "caption":""
+            
+        },
+                "date": [
+                    {
+                "startDate":"1917",
+                "endDate":"1917",
+                "headline":"Britain seizes Baghdad",
+                "text":"<p>Britain seizes control, creates state of Iraq</p>",
+                "tag":" ",
+                "classname":" "
+            },
+            {
+                "startDate":"1920",
+                "endDate":"1920",
+                "headline":"Britain creates state of Iraq with League of Nations approval",
+                "text":"<p>in the same year the great Iraqi Revolution occured - rebellion against British rule</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1921",
+                "endDate":"1921",
+                "headline":"First Iraq´s king",
+                "text":"<p>Faysal, son of Hussein Bin Ali, the Sharif of Mecca, is crowned Iraq's first king</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1932",
+                "endDate":"1932",
+                "headline":"Independence, followed by coups",
+                "text":"<p>Iraq becomes an independent state</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1939",
+                "endDate":"1945",
+                "headline":"Britain re-occupies Iraq",
+                "text":"<p> </p>",
+                "tag":""
+            },
+                        {
+                "startDate":"1958",
+                "endDate":"1958",
+                "headline":"Iraq is declared a republic",
+                "text":"<p>The monarchy is overthrown in a military coup led by Brig Abd-al-Karim Qasim and Col Abd-al-Salam Muhammad Arif</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1963",
+                "endDate":"1963",
+                "headline":"Prime Minister Qasim is ousted in a coup led by the Arab Socialist Baath Party (ASBP). Arif becomes president",
+                "text":"<p>During the year the Baathist government is overthrown by Arif and a group of officers</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1966",
+                "endDate":"1966",
+                "headline":"Arif is killed, his brother became president",
+                "text":"<p>After Arif is killed in a helicopter crash on 13 April, his elder brother, Maj-Gen Abd-al-Rahman Muhammad Arif, succeeds him as president</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1968",
+                "endDate":"1968",
+                "headline":"Gen Ahmad Hasan al-Bakr as new president",
+                "text":"<p>A Baathist led-coup ousts Arif. Revolution Command Council (RCC) takes charge with Gen Ahmad Hasan al-Bakr as chairman and country's president</p>",
+                "tag":" "
+            },
+                        
+                        {
+                "startDate":"1972",
+                "endDate":"1972",
+                "headline":"Petroleum firm nationalised",
+                "text":"<p>Iraq nationalises the Iraq Petroleum Company (IPC)</p>",
+                "tag":" "
+            },
+                    
+                        {
+                "startDate":"1974",
+                "endDate":"1974",
+                "headline":"Iraq grants limited autonomy to Kurdish region",
+                "text":"<p> </p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1979",
+                "endDate":"1979",
+                "headline":"Saddam Hussein succeeds Al-Bakr as president",
+                "text":"<p> </p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1980",
+                "endDate":"1988",
+                "headline":"Iran-Iraq war",
+                "text":"<p></p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1981",
+                "endDate":"1981",
+                "headline":"Israel attacks Iraq",
+                "text":"<p>June - Israel attacks an Iraqi nuclear research centre at Tuwaythah near Baghdad</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1988",
+                "endDate":"1988",
+                "headline":"Chemical attack on Kurds",
+                "text":"<p>1988: March - Iraq attacks Kurdish town of Halabjah with poison gas, killing thousands <br> 1990: March - Farzad Bazoft, an Iranian-born journalist with London's Observer newspaper, accused of spying on a military installation, is hanged in Baghdad</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1990",
+                "endDate":"1990",
+                "headline":"Journalist is hanged in Baghdad",
+                "text":"<p>March - Farzad Bazoft, an Iranian-born journalist with London's Observer newspaper, accused of spying on a military installation, is hanged in Baghdad</p>",
+                "tag":" "
+            },
+             {
+                "startDate":"1990",
+                "endDate":"1990",
+                "headline":"Iraq invades Kuwait, putting it on a collision course with the international community",
+                "text":"<p>Iraq invades Kuwait, prompting what becomes known as the first Gulf War. A massive US-led military campaign forces Iraq to withdraw in February 1991</p>",
+                "tag":" "
+            },
+            
+            {
+                "startDate":"1991",
+                "endDate":"1993",
+                "headline":"Iraq subjected to sanctions, weapons inspections and no-fly zones",
+                "text":"<p>1991 April - Iraq subjected to weapons inspection programme<br>1991 Mid-March/early April - Southern Shia and northern Kurdish populations - encouraged by Iraq's defeat in Kuwait - rebel, prompting a brutal crackdown<br>1991 April - UN-approved safe-haven established in northern Iraq to protect the Kurds. Iraq ordered to end all military activity in the area<br>1992 August - A no-fly zone, which Iraqi planes are not allowed to enter, is set up in southern Iraq, south of latitude 32 degrees north<br> 1993 June - US forces launch a cruise missile attack on Iraqi intelligence headquarters in Baghdad in retaliation for the attempted assassination of US President George Bush in Kuwait in April</p>",
+                "tag":" "
+            },
+            {
+                "startDate":"1995",
+                "endDate":"1995",
+                "headline":"Oil-for-food",
+                "text":"<p>April - UNSC Resolution 986 allows the partial resumption of Iraq's oil exports to buy food and medicine (the oil-for-food programme)</p>",
+                "tag":" "
+            },
+            {
+                "startDate":"1996",
+                "endDate":"1996",
+                "headline":"Iraqi forces capture Irbil",
+                "text":"<p>August - After call for aid from KDP, Iraqi forces launch offensive into northern no-fly zone and capture Irbil<br>September - US extends northern limit of southern no-fly zone to latitude 33 degrees north, just south of Baghdad</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1998",
+                "endDate":"1998",
+                "headline":"Opertaion Desert Fox",
+                "text":"<p>December - After UN staff are evacuated from Baghdad, the US and UK launch a bombing campaign, Operation Desert Fox, to destroy Iraq's nuclear, chemical and biological weapons programmes</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"2001",
+                "endDate":"2003",
+                "headline":"Waepons inspectors return",
+                "text":"<p>2002 September - US President George W Bush tells sceptical world leaders at a UN General to confront the grave and gathering danger of Iraq - or stand aside as the US acts. In the same month British Prime Minister Tony Blair publishes a ''dodgy'' dossier on Iraq's military capability<br>2002 November - UN weapons inspectors return to Iraq backed by a UN resolution which threatens serious consequences if Iraq is in material breach of its terms<br>2003 March - Chief weapons inspector Hans Blix reports that Iraq has accelerated its cooperation but says inspectors need more time to verify Iraq's compliance</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"2002",
+                "endDate":"2004",
+                "headline":"Saddam ousted",
+                "text":"<p>2003 March - UK's ambassador to the UN says the diplomatic process on Iraq has ended; arms inspectors evacuate; US President George W Bush gives Saddam Hussein and his sons 48 hours to leave Iraq or face war.<br>2003 March - US-led invasion topples Saddam Hussein's government, marks start of years of violent conflict with different groups competing for power<br>2003 July - US-appointed Governing Council meets for first time. Commander of US forces says his troops face low-intensity guerrilla-style war, Saddam's sons Uday and Qusay killed in gun battle in Mosul</p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"2003",
+                "endDate":"2004",
+                "headline":"Insurgency intensifies",
+                "text":"<p> </p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"2004",
+                "endDate":"2005",
+                "headline":"Sovereignity and elections",
+                "text":"<p>2004 August - Fighting in Najaf between US forces and Shia militia of radical cleric Moqtada Sadr.<br>2004 November - Major US-led offensive against insurgents in Falluja.<br>2005 January - Some 8 million vote in elections for a Transitional National Assembly.<br>2005 June - Massoud Barzani is sworn in as regional president of Iraqi Kurdistan.<br>2005 December - Iraqis vote for the first, full-term government and parliament since the US-led invasion. </p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"2005",
+                "endDate":"2006",
+                "headline":"Sectarian violence",
+                "text":"<p>2006 February onwards - A bomb attack on an important Shia shrine in Samarra unleashes a wave of sectarian violence in which hundreds of people are killed.<br>2006 22 April - Newly re-elected President Talabani asks Shia compromise candidate Nouri al-Maliki to form a new government, ending months of deadlock.<br>2006 May and June - An average of more than 100 civilians per day are killed in violence in Iraq, the UN says.<br>2006 7 June - Al-Qaeda leader in Iraq, Abu Musab al-Zarqawi, is killed in an air strike.<br>2006 November - Iraq and Syria restore diplomatic relations after nearly a quarter century.<br>More than 200 die in car bombings in the mostly Shia area of Sadr City in Baghdad, in the worst attack on the capital since the US-led invasion of 2003. </p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2006",
+                "endDate":"2007",
+                "headline":"Violence intensifies",
+                "text":"<p>2006 December - Saddam Hussein is executed for crimes against humanity.<br>2007 January - US President Bush announces a new Iraq strategy; thousands more US troops will be dispatched to shore up security in Baghdad.<br>UN says more than 34,000 civilians were killed in violence during 2006; the figure surpasses official Iraqi estimates threefold.<br>2007 February - A bomb in Baghdad's Sadriya market kills more than 130 people. It is the worst single bombing since 2003.<br>2007 April - Bombings in Baghdad kill nearly 200 people in one day.<br>2007 August - Truck and car bombs hit two villages of Yazidi Kurds, killing at least 250 people - the deadliest attack since 2003.<p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2007",
+                "endDate":"2008",
+                "headline":"Turkish raids",
+                "text":"<p>2007 October - The number of violent civilian and military deaths continues to drop, as does the frequency of rocket attacks.<br>2007 December - Britain hands over security of Basra province to Iraqi forces, effectively marking the end of nearly five years of British control of southern Iraq.<br>Prime Minister Maliki orders crackdown on militia in Basra, sparking pitched battles with Moqtada Sadr's Mehdi Army. Hundreds are killed.<br>2008 September - US forces hand over control of the western province of Anbar - once an insurgent and Al-Qaeda stronghold - to the Iraqi government. It is the first Sunni province to be returned to to the Shia-led government.<p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2008",
+                "endDate":"2009",
+                "headline":"Security pact approved",
+                "text":"<p>2008 November - Parliament approves a security pact with the United States under which all US troops are due to leave the country by the end of 2011.<br>2009 June - US troops withdraw from towns and cities in Iraq, six years after the invasion, having formally handed over security duties to new Iraqi forces.<p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2009",
+                "endDate":"2010",
+                "headline":"New political groupings",
+                "text":"<p>2009 July - New opposition forces make strong gains in elections to the regional parliament of Kurdistan, but the governing KDP and PUK alliance retains a reduced majority. Masoud Barzani (KDP) is re-elected in the presidential election.<br>2009 October - Two car bombs near the Green Zone in Baghdad kill at least 155 people, in Iraq's deadliest attack since April 2007.<br>2009 December - The al-Qaeda-linked Islamic State of Iraq claims responsibility for suicide bombings in Baghdad that kill at least 127 people, as well as attacks in August and October that killed 240 people.<br>Tension flares with Tehran as Iranian troops briefly occupy an oilfield in Iraqi territory.<p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2010",
+                "endDate":"2011",
+                "headline":"Inconclusive elections",
+                "text":"<p>2010 March - Parliamentary elections. Nine months pass before a new government is approved.<br>2010 October - Church in Baghdad seized by militants. More than 50 people are killed in what is described as the worst single disaster to hit Iraq's Christians in modern times.<br>2011 February - Oil exports from Iraqi Kurdistan resume, amid a lengthy dispute between the region and the central government over contracts with foreign firms.<p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2011",
+                "endDate":"2012",
+                "headline":"US pull out",
+                "text":"<p>2011 December - US completes troop pull-out.<br>2012 March - Tight security for Arab League summit in Baghdad. It is the first major summit to be held in Iraq since the fall of Saddam Hussein. A wave of pre-summit attacks kills scores of people.<br>2012 April - Oil exports from Iraqi Kurdistan halted amid row with central government over contracts with foreign firms.<br>2012 September - Fugitive Vice-President Tariq al-Hashemi is sentenced to death for murder in absentia. He fled to Turkey after being accused of running death squads.<br>2012 November - Iraq cancels a $4.2bn deal to buy arms from Russia because of concerns about alleged corruption within the Iraqi government. The purchase, signed in October, would have made Russia the country's second-largest arms supplier after the US. Moscow was the main arms supplier of to Saddam Hussein.<p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2012",
+                "endDate":"2013",
+                "headline":"Violence intensifies",
+                "text":"<p>2012 December - President Jalal Talabani suffers a stroke. He undergoes treatment in Germany and makes some progress through the winter and spring.<br>2013 April - Insurgency intensifies, with levels of violence matching those of 2008. By July the country is described as being yet again in a state of full-blown sectarian war.<br>2013 July - At least 500 prisoners, mainly senior al-Qaeda members, escape from Taji and Abu Ghraib jails in a mass breakout.<br>2013 September - Series of bombings hits Kurdistan capital Irbil in the first such attack since 2007. Islamic State of Iraq says it was responding to alleged Iraqi Kurdish support for Kurds fighting jihadists in Syria.<p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2013",
+                "endDate":"2014",
+                "headline":"Islamist surge",
+                "text":"<p>2014 January - Islamist fighters infiltrate Fallujah and Ramadi after months of mounting violence in mainly-Sunni Anbar province. Government forces recapture Ramadi but face entrenched rebels in Fallujah.<br>2014 April - Prime Minister Al-Maliki's coalition wins a plurality at first parliamentary election since 2011 withdrawal of US troops, but falls short of a majority.<br>2014 June-September - Sunni rebels led by the Islamic State of Iraq and the Levant surge out of Anbar Province to seize Iraq's second city of Mosul and other key towns. Tens of thousands flee amid atrocities. Kurdish forces, US and Iran assist government in repelling attacks. 2014 July - Kurdish Region President Massoud Barzani announces plans for an independence referendum this year, given that Iraq is 'effectively partitioned'.<p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2014",
+                "endDate":"2015",
+                "headline":"Broad government",
+                "text":"<p>2014 September - Shia politician Haider al-Abad forms a broad-based government including Sunni Arabs and Kurds. Kurdish leadership agrees to put independence referendum on hold.<br>2014 December - The Iraqi government and the leadership of the Kurdish Region sign a deal on sharing Iraq's oil wealth and military resources, amid hopes that the agreement will help to reunite the country in the face of the common threat represented by Islamic State.<br>2015 March - Islamic State destroys Assyrian archaeological sites of Nimrud and Hatra.<p>",
+                "tag":" "
+            },
+            {
+                "startDate":"2015",
+                "endDate":"2016",
+                "headline":"Offensive against Islamic State",
+                "text":"<p>2015 April - Government forces regain control of city of Tikrit from Islamic State fighters after month-long siege.<br>2015 May - Islamic State captures city of Ramadi, capital of western province of Anbar, in lightning assault.<br>2015 July - Iraqi army launches offensive to re-take Anbar province.<br>2015 December - Government forces recapture central Ramadi.<br>2016 February - Government troops expel last remaining Islamic State fighters from Ramadi area. Islamic State forces withdraw to Fallujah.<br>2016 May - Army and Shia militias launch offensive to retake Falluja from Islamic State.<p>",
+                "tag":" "
+            }
+         
+        ],
+        "era": [
+            {
+                "startDate":"1534",
+                "endDate":"1918",
+                "headline":"Region is part of the Ottoman Empire",
+                "text":"<p> </p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1914",
+                "endDate":"1918",
+                "headline":"World War I",
+                "text":"<p> </p>",
+                "tag":" "
+            },
+            {
+                "startDate":"1939",
+                "endDate":"1945",
+                "headline":"World War II",
+                "text":"<p> </p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1980",
+                "endDate":"1988",
+                "headline":"Iran-Iraq war",
+                "text":"<p> </p>",
+                "tag":" "
+            },
+                        {
+                "startDate":"1995",
+                "endDate":"2003",
+                "headline":"Oil-for-food",
+                "text":"<p> </p>",
+                "tag":" "
+            },
+                                    {
+                "startDate":"2003",
+                "endDate":"2011",
+                "headline":"US-led coalition invaded Iraq",
+                "text": "<p> </p>",
+                "tag":" "
+            }
+        ]
+    }
+}

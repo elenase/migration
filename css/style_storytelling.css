@@ -1,0 +1,206 @@
+/**
+ * Parallax Scrolling Tutorial
+ * For Smashing Magazine
+ * July 2011
+ *  
+ * Author: Richard Shepherd
+ *		   www.richardshepherd.com
+ * 		   @richardshepherd   
+ */
+
+
+article h2 { font-family: 'Georgia'; font-size: 20px; margin: 25px 0; line-height: 1em; }
+
+.story { 
+	height: 786px; 
+	padding: 0; 
+	margin: 0; 
+	width: 100%; 
+	max-width: 1024px; 
+	position: relative; 
+	margin: 0 auto; 
+	border-top: 1px solid rgba(255,255,255,0.3); 
+	border-bottom: 1px solid rgba(0,0,0,0.4); 
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#first { background: url(images/background_textbox.jpg) 50% 0% repeat fixed; }
+#second { background: url(images/landschaft2.jpg) 50% 0% no-repeat fixed; }
+#third { background: url(..images/gray_1.png) 50% 0 repeat fixed; }
+#fourth { background: url(images/background_textbox.jpg) 50% 0 repeat fixed; }
+#fifth { background: url(..images/background_gray_blank.jpg) 50% 0 repeat fixed; }
+#sixth { background: url(..images/background_gray_blank.jpg) 50% 0 repeat fixed; }
+#seventh { background: url(../images/assistance.jpg) 50% 0 no-repeat fixed; }
+#theend { background: url(images/background_abstract_migration.png) 50% bottom no-repeat fixed; }
+
+/* Introduction */
+#first .smashinglogo { 
+	background: url(..images/palette_foto/ueberschrift.jpg)50% 100px no-repeat fixed; 
+	min-height: 200px; 
+	padding: 0; 
+	margin: 0; 
+	width: 100%; 
+	max-width: 1024px; 
+	position: relative; 
+	margin: 0 auto;
+ }
+#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+#first article p1 {font-family: 'Georgia'; color: #AEE0FD; font-weight: lighter; font-size: 52px;}
+#first article p2 {font-family: 'Georgia'; color: #E5DABE; font-weight: lighter; font-size: 52px;}
+/*#first article a { color: #ccc; }*/
+/*#first article a { text-decoration: underline; }*/
+#first article a:hover { color: #fff; }
+
+strong.second_h2 {font-family: 'Georgia'; color: white; font-weight: lighter; font-size: 52px;}
+
+
+/* Migration-Zitat */
+#second { padding: 0px 0;}
+#second article { 
+	background: url(images/background_textbox.jpg) repeat #333; 
+        margin-left: 5%; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	line-height: 1.5em; 
+	position: absolute; 
+	top: 0;
+	color: #fff; 
+	width: 300px; 
+	padding: 10px 20px; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
+	border: 1px solid rgba(150,150,150,0.1);
+ }
+#second article p { margin-bottom: 25px; }
+#second article a { color: #E5DABE;}
+
+
+
+#third .photograph { background: url(../images/photo1.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#third article p { width: 300px; margin-bottom: 15px; }
+
+/* Ein- und Abwanderung */
+#fourth article {  
+	margin-left: 62px; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	line-height: 1.5em; 
+	position: absolute; 
+	top: 0;
+	background: repeat #333; 
+        background-color: white;
+	color: black; 
+	width: 290px; 
+	padding: 10px 20px; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.1); 
+	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
+	border: 1px solid rgba(150,150,150,0.1)	
+ }
+#fourth article p {  margin: 15px 0;font-size: 15px; }
+#fourth article a { color: #E5DABE;}
+
+/*  */
+#fifth article {  
+	margin-left: 10%; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	line-height: 1.5em; 
+	position: absolute; 
+	top: 0;
+	background: url(../images/grain.png) repeat #333; 
+	color: #fff; 
+	width: 300px; 
+	margin-left: 60px; 
+	padding: 10px 20px; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
+	border: 1px solid rgba(150,150,150,0.1);
+	
+	
+ }
+#fifth article p {  margin: 50px 0;}
+
+
+
+/* CHART: FATALATIES */
+#sixth article {  
+	margin-left: 10%; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	line-height: 1.5em; 
+	position: absolute; 
+	top: 0;
+	background: url(../images/grain.png) repeat #333; 
+	color: #fff; 
+	width: 300px; 
+	margin-left: 60px; 
+	padding: 10px 20px; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
+	border: 1px solid rgba(150,150,150,0.1);
+	
+	
+ }
+#sixth article p {  margin: 50px 0;font-size: 15px; }
+#sixth video { position: fixed; left: 50%; box-shadow: 0 0 25px rgba(0,0,0,0.7); z-index: 1;}
+
+
+
+
+
+
+
+/* MAPS */
+#seventh article {  
+	margin-left: 10%; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	line-height: 1.5em; 
+	position: absolute; 
+	top: 0;
+	background: url(../images/grain.png) repeat #333; 
+	color: #fff; 
+	width: 300px; 
+	margin-left: 60px; 
+	padding: 10px 20px; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
+	border: 1px solid rgba(150,150,150,0.1);
+	
+	
+ }
+#seventh article p {  margin: 50px 0;font-size: 15px; }
+#seventh video { position: fixed; left: 50%; box-shadow: 0 0 25px rgba(0,0,0,0.7); z-index: 1;}
+
+
+
+
+
+
+
+
+
+
+/* The End */
+#theend article { 
+	width: 100%; 
+	top: 30px; 
+	position: absolute; 
+	text-align: center;
+	color: #fff; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	line-height: 3.5em; 
+ }
+#theend article p,
+#theend article a { 
+	color: #ffe; 
+	font-size: 30px;
+	}
+#theend article a { text-decoration: underline; }
+#theend article a:hover { color: #fff; }
+#theend .byebye { 
+	background: url(../images/key.jpg) 80% 20px no-repeat fixed;
+	height: 800px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	max-width: 1920px;
+	position:
+	relative;
+	margin: 0 auto;
+	}

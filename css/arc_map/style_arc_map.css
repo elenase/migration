@@ -1,0 +1,92 @@
+#legendfleche {
+    top:-100px;
+  }
+  #legendcercle {
+   top:-98px;
+  }
+  #sources {
+    top:-30px;
+  }
+@media (max-width:992px){
+  #legendfleche {
+    top:-250px;
+  }
+  #legendcercle {
+   top:-250px;
+  }
+  #sources {
+    top:-340px;
+    left:200px;
+  }
+}
+svg .circle {
+  fill: #FFF;
+  stroke-width: 1;
+  stroke: #999;
+}
+svg .geo {
+  fill: #ddd;
+  stroke: white;
+  stroke-width: 0.5;
+}
+svg circle:hover{
+  cursor: pointer;
+}
+svg circle:active{
+  stroke: black;
+}
+svg .link_line {
+  stroke: rgba(255,255,255,1);
+  stroke-width: 0.6;
+}
+svg .link_line:hover{
+  cursor: pointer;
+  stroke: black;
+}
+svg .link_line:active{
+  stroke: black;
+}
+text {
+text-anchor: middle;
+font-weight: bold;
+font-family: arial;
+font-size: 7pt;
+text-shadow: 0px 0px 2px #FFF;
+}
+.label1 {
+    color: #3690c0;
+}
+#tooltop{
+    display: none;
+}
+.d3-tip {
+  font-family: arial;
+  font-size: 10px;
+  line-height: 1;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  font-size: 12px;                                                /* NEW */
+  left: 130px;                                                    /* NEW */
+  padding: 10px;                                                  /* NEW */
+  position: absolute;                                             /* NEW */
+  text-align: center; 
+}
+/*
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}*/

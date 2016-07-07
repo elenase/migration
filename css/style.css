@@ -1,0 +1,278 @@
+@charset "utf-8";
+.row {
+	align: center;
+	text-align: center;
+	width: 100%;
+	margin: 2px;
+	height: 480px;
+}
+.active_sidebar {
+	background-color: #d3cc9c;
+}
+
+
+
+.button_row {
+    align: center;
+}
+
+.button_row_monate {
+
+    position: absolute;
+    margin-left: 3px;
+
+}
+.btn_monate
+{
+    width: 50px;
+    height: 40px;
+    font-color: black;
+    background-color: transparent;
+/*    box-shadow: 0px 0px 0px 0px #3dc21b;*/
+    border-color: black;
+    margin: 0 0 0 0;
+    font-size: 12px;
+}
+
+.btn_Total {
+    color: #832C65;
+    background-color: transparent;
+    border-radius:28px;
+    box-shadow: 0px 0px 0px 0px #3dc21b;
+    border-color: black;
+    margin-left: 60px;
+}
+
+.btn_Asia {
+    color: #832C65;
+    background-color: transparent;
+    border-radius:28px;
+    box-shadow: 0px 0px 0px 0px #3dc21b;
+    border-color: #1874cd;
+    margin-left: 110px;
+}
+.btn_Europe {
+    color: #832C65;
+    background-color: transparent;
+    border-radius:28px;
+    box-shadow: 0px 0px 0px 0px #3dc21b;
+    border-color: #008b00;
+    margin-left: 30px;
+}
+.btn_Africa {
+    color: #832C65;
+    background-color: transparent;
+    border-radius:28px;
+    box-shadow: 0px 0px 0px 0px #3dc21b;
+   border-color: #ffd700;
+    margin-left: 30px;
+}
+.btn_USA {
+    color: #832C65;
+    background-color: transparent;
+    border-radius:28px;
+    box-shadow: 0px 0px 0px 0px #3dc21b;
+    border-color: #ff8c00;
+    margin-left: 30px;
+}
+.btn_Ozeanien {
+    color: #832C65;
+    background-color: transparent;
+    border-radius:28px;
+    border-color: #8b0000;
+    margin-left: 30px;
+}
+.btn_Latin {
+    color: #832C65;
+    background-color: transparent;
+    border-radius:28px;
+    border-color: #008b8b;
+    margin-left: 30px;
+}
+
+
+.diagramm{
+    margin: 5%;    
+
+
+}
+
+#einwanderung_geschlechter{
+margin-top: 10px; 
+margin-left: 320px;
+float: left
+}
+#abwanderung_geschlechter{
+margin-top: 10px; 
+margin-left: 0px;
+float: left
+}
+
+#Ein_und_Abwanderung{
+
+margin-left: 62px
+}
+.diagramm_inner{
+    position: absolute;
+    margin-top: 20px;
+    height: 650px;    
+    width: 900px
+}
+
+.diagramm_1{
+    margin-top: 100px;    
+    margin-left: 450px;
+        bottom: 20px;
+}
+.box {
+        position: relative;
+        height: 650px;
+	width: 810px;
+	background-color:#f1f1f1;
+	padding:0.01em 16px;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+box_scrollable{
+    	height: 650px;
+	width: 810px;
+	background-color:#f1f1f1;
+	padding:0.01em 16px;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+        overflow: scroll;
+    
+}
+
+.col-sm-3.col-md-2.sidebar {
+	height: 650px;
+	width: 200px;
+	background-color: white;
+	margin: 0px;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+li {
+	height: 33%;
+	box-shadow:0 2px 0px 0 rgba(0,0,0,0.16);
+}
+#sidebar_unten {
+	height: 33%;
+	box-shadow:0 0px 0px 0 rgba(0,0,0,0);
+}
+
+.nav.nav-sidebar {
+	margin:0px;
+	padding: 0px;
+	width: 100%;
+	float: left;
+	height: 650px;
+	background-color:#f1f1f1;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+body {
+	background-color: #FFFFFF;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container-fluid {
+	height: 100%;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+.row .col-sm-4.thumbnails .img-thumbnail.img-responsive {
+	border-color: #FFFFFF;
+	height: 200px;
+	width: 180px;
+}
+h3.h3thumbnail {
+
+	font-size: small;
+	color: #000000;
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+.navbar {
+	margin: 0;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
+}
+
+.second {
+	color: #black;
+	font-weight: 900;
+	font-style: normal;
+	font-size: small;
+	text-shadow: 0px 0px hsla(0,0%,0%,1.00);
+}
+
+.thumbnails {
+	width: 24%;
+	min-width: 170px;
+	height: 300px;
+	margin: 4px;
+	-webkit-box-shadow: 1px 1px #D6E2E3;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	border-top: medium solid #95A1A2;
+}
+
+
+
+#indicatorDiv{
+    color: #1790e1; 
+    width: 480px; 
+    font-family: 'Arial','Helvatica'; 
+    font-size: 12px; 
+    padding: 10px; 
+    display: none;
+}
+
+
+
+/*// ####################CHOROPLETH ############################################################################################################################################################################################################## //*/
+
+
+		#map {
+			width: 800px;
+			height: 500px;
+		}
+
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+
+		.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+		}
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+		}
