@@ -1,9 +1,3 @@
-var httpc = new XMLHttpRequest(); // simplified for clarity
-var url = "Test_Server.php";
-httpc.open("GET", url + "?key=Irak_Auswanderung_Kontinente", true);
-httpc.setRequestHeader("Content-Type", "application/json");
-
-
 
 function createChart(data) {
     var labels = [];
@@ -14,13 +8,13 @@ function createChart(data) {
     var values5 = [];
     var values6 = [];
     for (var i = 0; i < data.length; i++) {
-        labels[i] = {"label": data[i].label};
-        values1[i] = {"value": data[i].afrika};
-        values2[i] = {"value": data[i].asien};
-        values3[i] = {"value": data[i].europa};
-        values4[i] = {"value": data[i].latin};
-        values5[i] = {"value": data[i].usa};
-        values6[i] = {"value": data[i].ozeanien};
+        labels[i] = {"label": data[i].JAHR};
+        values1[i] = {"value": data[i].Afrika_prozentual};
+        values2[i] = {"value": data[i].Asien_prozentual};
+        values3[i] = {"value": data[i].Europa_prozentual};
+        values4[i] = {"value": data[i].LatinAmerica_prozentual};
+        values5[i] = {"value": data[i].Northern_America_prozentual};
+        values6[i] = {"value": data[i].Oceanien_prozentual};
     }
     
     var vstrChart = new FusionCharts({
@@ -106,16 +100,5 @@ function createChart(data) {
 } 
 
 
-
-function sendRequest(callback) {
-    httpc.callback = callback;
-    httpc.send();
-    
-    httpc.onloadend = function() {
-        var data = JSON.parse(httpc.responseText);
-        httpc.callback = callback(data.data);
-    }
-    
-}
 sendRequest(createChart);
 
