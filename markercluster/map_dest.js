@@ -20,8 +20,8 @@ L.tileLayer('http://{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png', {
 var myURL = jQuery('script[src$="map_dest.js"]').attr('src').replace('map_dest.js', '');
 
 var myIcon = L.icon({
-    iconUrl: myURL + '/images/icon.png',
-    iconRetinaUrl: myURL + '/images/icon.png',
+    iconUrl: myURL + '/icon.png',
+    iconRetinaUrl: myURL + '/icon.png',
     iconSize: [29, 24],
     iconAnchor: [9, 21],
     popupAnchor: [0, -14]
