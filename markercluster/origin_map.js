@@ -29,7 +29,7 @@
 
 
     var myIcon = L.icon({
-      iconUrl: myURL + '/maps/images/form_abwanderung.png',
+      iconUrl: myURL + '/maps/form_abwanderung.png',
       iconSize: [40, 40],
       iconAnchor: [9, 21],
     });
