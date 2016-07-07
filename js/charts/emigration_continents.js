@@ -1,5 +1,12 @@
+function load() {
+	var mydata = JSON.parse(data);
+	alert(mydata[0].name);
+	alert(mydata[0].age);
+}
 
-function createChart(data) {
+
+function createChart() {
+    var data = JSON.parse(data);
     var labels = [];
     var values1 = [];
     var values2 = [];
