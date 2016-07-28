@@ -3,7 +3,7 @@
      width: "100%",
      height: "100%",
      background: "blue",
-     source: 'migration/timeline_history_iraq.json'
+     source: 'https://raw.githubusercontent.com/elnase/migration/gh-pages/timeline_history_iraq.json'
     }
 
 
