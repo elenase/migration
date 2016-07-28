@@ -120,5 +120,5 @@ function createChart(data) {
 //    }
     
 //}
-//sendRequest(createChart);
+sendRequest(createChart);
 
