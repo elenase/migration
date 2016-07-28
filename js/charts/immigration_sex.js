@@ -1,7 +1,7 @@
-var httpc2 = new XMLHttpRequest(); // simplified for clarity
-var url = "Test_Server.php";
-httpc2.open("GET", url + "?key=Einwanderung_geschlechter", true);
-httpc2.setRequestHeader("Content-Type", "application/json");
+//var httpc2 = new XMLHttpRequest(); // simplified for clarity
+//var url = "Test_Server.php";
+//httpc2.open("GET", url + "?key=Einwanderung_geschlechter", true);
+//httpc2.setRequestHeader("Content-Type", "application/json");
 
 
 var data =
