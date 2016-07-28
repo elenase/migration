@@ -15,7 +15,7 @@ map.on("load", function(){
 
 map.setView(L.latLng(33.8, 44.00), 6);
 
-L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png').addTo(map);
+L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png').addTo(map);
 
 var myURL = jQuery('script[src$="map_dest.js"]').attr('src').replace('map_dest.js', '');
 
