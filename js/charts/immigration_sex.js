@@ -4,12 +4,12 @@
 //httpc2.setRequestHeader("Content-Type", "application/json");
 
 
-var data =
-[{"Einwanderung_Frauen_gesamt":"445791","Einwanderung_Maenner_gesamt":"652017"}];
+//var data =
+//[{"Einwanderung_Frauen_gesamt":"445791","Einwanderung_Maenner_gesamt":"652017"}];
 
 
 
-function createChart(data) {
+/*function createChart(data) {
     var einwanderungMaenner = [];
     var einwanderungFrauen = [];
 
@@ -17,6 +17,7 @@ function createChart(data) {
         einwanderungMaenner[i] = {"label": data[i].Einwanderung_Maenner_gesamt};
         einwanderungFrauen[i] = {"value": data[i].Einwanderung_Frauen_gesamt};
     }
+    */
     
     var Migration2Chart = new FusionCharts({
         type: 'doughnut2d',
@@ -67,18 +68,20 @@ function createChart(data) {
             "data": [
                 {
                     "label": "Men",
-                    "value": data[0].einwanderungMaenner
+                    "value": 652017
+                    //data[0].einwanderungMaenner
                 }, 
                 {
                     "label": "Woman",
-                    "value": data[0].einwanderungFrauen
+                    "value": 445791
+                    //data[0].einwanderungFrauen
                 } 
             ]
         }
     }).render();
  return data;
 
-}
+//}
 
 
 //function sendRequest(callback) {
