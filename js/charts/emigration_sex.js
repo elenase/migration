@@ -1,3 +1,4 @@
+/*
 var httpc33 = new XMLHttpRequest(); // simplified for clarity
 var url = "Test_Server.php";
 httpc33.open("GET", url + "?key=Abwanderung_geschlechter", true);
@@ -8,6 +9,7 @@ httpc33.setRequestHeader("Content-Type", "application/json");
 
 
 function createChart(data) {
+*/
 
     var Migration2Chart = new FusionCharts({
         type: 'doughnut2d',
@@ -55,16 +57,19 @@ function createChart(data) {
             "data": [
                 {
                     "label": "Men",
-                    "value": data[0].abwanderungMaenner
+                    "value": 5246120
+                    //data[0].abwanderungMaenner
                 }, 
                 {
                     "label": "Woman",
-                    "value": data[0].abwanderungFrauen
+                    "value": 4243185
+                    //data[0].abwanderungFrauen
                 } 
             ]
         }
     }).render();
- return data;
+/*
+return data;
 
 }
 
@@ -80,3 +85,4 @@ function sendRequest(callback) {
     
 }
 sendRequest(createChart);
+*/
