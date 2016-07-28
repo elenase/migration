@@ -13,9 +13,7 @@
       zoom: 6
     });
 
-    L.tileLayer( 'http://{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png', {
-       subdomains: ['otile1','otile2','otile3','otile4']
-    }).addTo( map_origin );
+    L.tileLayer( 'http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png').addTo( map_origin );
 
     map_origin.attributionControl.addAttribution('Displacement data &copy; <a href="http://iraqdtm.iom.int/Downloads.aspx">IOM Iraq</a>');
     
