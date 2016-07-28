@@ -4,13 +4,20 @@ httpc2.open("GET", url + "?key=Einwanderung_geschlechter", true);
 httpc2.setRequestHeader("Content-Type", "application/json");
 
 
-var date =
+var data =
 [{"Einwanderung_Frauen_gesamt":"445791","Einwanderung_Maenner_gesamt":"652017"}];
 
 
 
 function createChart(data) {
+    var einwanderungMaenner = [];
+    var einwanderungFrauen = [];
 
+    for (var i = 0; i < data.length; i++) {
+        einwanderungMaenner[i] = {"label": data[i].Einwanderung_Maenner_gesamt};
+        einwanderungFrauen[i] = {"value": data[i].Einwanderung_Frauen_gesamt};
+    }
+    
     var Migration2Chart = new FusionCharts({
         type: 'doughnut2d',
         renderAt: 'einwanderung_geschlechter',
@@ -74,14 +81,14 @@ function createChart(data) {
 }
 
 
-function sendRequest(callback) {
-    httpc2.callback = callback;
-    httpc2.send();
+//function sendRequest(callback) {
+ //   httpc2.callback = callback;
+ //   httpc2.send();
     
-    httpc2.onloadend = function() {
-        var data = JSON.parse(httpc2.responseText);
-        httpc2.callback = callback(data.data);
-    }
+ //   httpc2.onloadend = function() {
+ //       var data = JSON.parse(httpc2.responseText);
+ //       httpc2.callback = callback(data.data);
+ //   }
     
-}
-sendRequest(createChart);
+//}
+//sendRequest(createChart);
