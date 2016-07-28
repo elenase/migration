@@ -15,9 +15,7 @@ map.on("load", function(){
 
 map.setView(L.latLng(33.8, 44.00), 6);
 
-L.tileLayer('http://{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png', {
-    subdomains: ['otile1', 'otile2', 'otile3', 'otile4']
-}).addTo(map);
+L.tileLayer('http://{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png').addTo(map);
 
 var myURL = jQuery('script[src$="map_dest.js"]').attr('src').replace('map_dest.js', '');
 
