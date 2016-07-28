@@ -110,15 +110,15 @@ function createChart(data) {
 
 
 
-function sendRequest(callback) {
-    httpc.callback = callback;
-    httpc.send();
+//function sendRequest(callback) {
+//    httpc.callback = callback;
+//    httpc.send();
     
-    httpc.onloadend = function() {
-        var data = JSON.parse(httpc.responseText);
-        httpc.callback = callback(data.data);
-    }
+//    httpc.onloadend = function() {
+//        var data = JSON.parse(httpc.responseText);
+//        httpc.callback = callback(data.data);
+//    }
     
-}
-sendRequest(createChart);
+//}
+//sendRequest(createChart);
 
