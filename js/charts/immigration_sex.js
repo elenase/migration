@@ -4,6 +4,8 @@ httpc2.open("GET", url + "?key=Einwanderung_geschlechter", true);
 httpc2.setRequestHeader("Content-Type", "application/json");
 
 
+var date =
+[{"Einwanderung_Frauen_gesamt":"445791","Einwanderung_Maenner_gesamt":"652017"}];
 
 
 
